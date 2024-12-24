@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.aspx" />
+    <Content Include="calculator.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="1.aspx.designer.cs">
       <DependentUpon>1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="calculator.aspx.cs">
+      <DependentUpon>calculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="calculator.aspx.designer.cs">
+      <DependentUpon>calculator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
