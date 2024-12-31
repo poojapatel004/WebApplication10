@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,6 +13,14 @@ namespace WebApplication10
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string filename = FileUpload1.FileName;
+            String path=Server.MapPath("~/FILES/") + filename;
+            FileUpload1.SaveAs(path);
+            Label1.Text = "File Uploaded";
         }
     }
 }
