@@ -68,7 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.aspx" />
-    <Content Include="calculator.aspx" />
+    <Content Include="20141024125446.jpg" />
+    <Content Include="Add.xml" />
+    <Content Include="adRotator.aspx" />
+    <Content Include="my_photo.jpg" />
+    <Content Include="sada shayate.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,14 +83,14 @@
     <Compile Include="1.aspx.designer.cs">
       <DependentUpon>1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="calculator.aspx.cs">
-      <DependentUpon>calculator.aspx</DependentUpon>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="adRotator.aspx.cs">
+      <DependentUpon>adRotator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="calculator.aspx.designer.cs">
-      <DependentUpon>calculator.aspx</DependentUpon>
+    <Compile Include="adRotator.aspx.designer.cs">
+      <DependentUpon>adRotator.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
