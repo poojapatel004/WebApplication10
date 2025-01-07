@@ -23,6 +23,9 @@
             <br />
 &nbsp;&nbsp;&nbsp;
             <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <br />
+            <br />
+            <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
         </div>
         <p>
             &nbsp;</p>

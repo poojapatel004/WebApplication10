@@ -23,5 +23,11 @@ namespace WebApplication10
             FileUpload1.SaveAs(path);
             Label1.Text = "File Uploaded";
         }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            Label1.Text =Calendar1.SelectedDate.ToString();
+            //Label1.Text= Calendar1.SelectMonthText.ToString();
+        }
     }
 }
